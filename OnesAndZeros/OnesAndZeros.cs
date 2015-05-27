@@ -9,11 +9,11 @@ public class Program
         char[] arrNew = new char[16];
         if(arr.Length>16)
         {
-            int razlika = arr.Length - 16;
+            int subtraction = arr.Length - 16;
             for (int i = 0; i < 16; i++)
             {
-                arrNew[i] = arr[razlika];
-                razlika++;
+                arrNew[i] = arr[subtraction];
+                subtraction++;
             }
         }
         else
@@ -92,7 +92,6 @@ public class Program
                         break;
                     }
                     HashDot();
-                   
                 }
                 Console.WriteLine();
             }
@@ -105,7 +104,6 @@ public class Program
                 }
                 Hashs();
             }
-       
     }
   static void Hashs()
     {
@@ -121,5 +119,3 @@ public class Program
       Console.Write(hash+dot+hash+dot);
   }
 }
-
-
