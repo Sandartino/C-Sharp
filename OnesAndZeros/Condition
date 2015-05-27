@@ -1,14 +1,7 @@
-﻿bul.“Alexander Malinov“ №33., Sofia, 1729, Bulgaria
-academy.telerik.com 
-
-
-	
-
-	
-
-Problem 3 – Ones and Zeros
-You are given a non-negative integer number N. Your task is to print the last 16 bits of the binary representation of N on the console. Every bit is printed in a rectangular area with 5 rows and 3 columns. 
-
+Ones and Zeros
+You are given a non-negative integer number N. 
+Your task is to print the last 16 bits of the binary representation of N on the console. 
+Every bit is printed in a rectangular area with 5 rows and 3 columns. 
 
 A bit with value of 1 should be printed in the format:
 .#.
@@ -16,7 +9,6 @@ A bit with value of 1 should be printed in the format:
 .#. 
 .#.
 ###
-
 
 A bit with value of 0 should be printed in the format:
 ###
@@ -38,45 +30,14 @@ Your output should contain exactly 5 lines with 63 symbols on each line. Symbols
 Constraints
 * The number N will be a non-negative integer number between 0 and 2147483647, inclusive.
 * The only C# Console methods that you are allowed to use are Console.Write() and Console.WriteLine(). This means that Console.SetCursorPosition() will not work. 
-* Allowed working time for your program: 0.10 seconds.
-* Allowed memory: 16 MB.
-
-
 
 
 Examples
-Input example
-	Output example
-	1
+Input example:1234
+Output example:
 
-
-	###.###.###.###.###.###.###.###.###.###.###.###.###.###.###..#.
-#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.##.
-#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..#.
-#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..#.
-###.###.###.###.###.###.###.###.###.###.###.###.###.###.###.###
-	1234
-
-
-	###.###.###.###.###..#..###.###..#...#..###..#..###.###..#..###
+###.###.###.###.###..#..###.###..#...#..###..#..###.###..#..###
 #.#.#.#.#.#.#.#.#.#.##..#.#.#.#.##..##..#.#.##..#.#.#.#.##..#.#
 #.#.#.#.#.#.#.#.#.#..#..#.#.#.#..#...#..#.#..#..#.#.#.#..#..#.#
 #.#.#.#.#.#.#.#.#.#..#..#.#.#.#..#...#..#.#..#..#.#.#.#..#..#.#
 ###.###.###.###.###.###.###.###.###.###.###.###.###.###.###.###
-	65535
-
-
-	.#...#...#...#...#...#...#...#...#...#...#...#...#...#...#...#.
-##..##..##..##..##..##..##..##..##..##..##..##..##..##..##..##.
-.#...#...#...#...#...#...#...#...#...#...#...#...#...#...#...#.
-.#...#...#...#...#...#...#...#...#...#...#...#...#...#...#...#.
-###.###.###.###.###.###.###.###.###.###.###.###.###.###.###.###
-	
-
-
-
-
-
-	Telerik Software Academy 2013
-	 of 
-	facebook.com/TelerikAcademy
