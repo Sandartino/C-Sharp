@@ -4,7 +4,7 @@ public class Program
 {
 	public static void Main()
 	{
-		 int n = int.Parse(Console.ReadLine());
+	int n = int.Parse(Console.ReadLine());
         int height = 2 * n;
         int allWidth = 3 * n + 1;
         int eggWidth = 3 * n - 1;
@@ -37,7 +37,7 @@ public class Program
                 pivot += 2;
             }
         }
-        //middle crack
+
         int counter = n - 2;
         for (int i = 0; i < n-2; i++)
         {
@@ -49,7 +49,7 @@ public class Program
                     irow++;
             }
         }
-        //kliombi
+
         int counterPivot = 2;
         int counterF = n - 1;
         int sub = n / 2 + n;
@@ -101,5 +101,5 @@ public class Program
                 matrix[row, col] = '.';
             }
         }
-	}
+    }
 }
